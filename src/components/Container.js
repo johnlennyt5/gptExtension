@@ -7,7 +7,7 @@ const OuterContainer = forwardRef(function OuterContainer(
 ) {
 	return (
 		<div ref={ref} className={clsx("sm:px-8 bg-blue-200", className)} {...props}>
-			<h1 className="text-center text-lg font-bold text-blue-700 bg-yellow-100">ChatGPT3</h1>
+			<h1 className="text-center text-lg font-bold text-blue-700 bg-yellow-100">ChatGPT</h1>
 			<div className="m-3  rounded bg-yellow-100">{children}</div>
 		</div>
 	);

@@ -3,8 +3,16 @@
   "name": "ChatGPT Extension",
   "description": "ChatGPT Extension",
   "version": "1.0",
+  "permissions": [
+    "sidePanel"
+  ],
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
-    "default_popup": "./index.html",
-    "default_icon": "./openai-avatar.png"
+    "default_title": "Click to open panel"
   }
 }
